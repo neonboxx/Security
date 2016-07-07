@@ -1,0 +1,30 @@
+{
+  "version": "1.1.0-*",
+  "description": "ASP.NET Core middleware that enables an application to support GitHub's OAuth 2.0 authentication workflow.",
+  "packOptions": {
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/aspnet/security"
+    },
+    "tags": [
+      "aspnetcore",
+      "authentication",
+      "security"
+    ]
+  },
+  "buildOptions": {
+    "warningsAsErrors": true,
+    "keyFile": "../../tools/Key.snk",
+    "nowarn": [
+      "CS1591"
+    ],
+    "xmlDoc": true
+  },
+  "dependencies": {
+    "Microsoft.AspNetCore.Authentication.OAuth": "1.1.0-*"
+  },
+  "frameworks": {
+    "net451": {},
+    "netstandard1.3": {}
+  }
+}
